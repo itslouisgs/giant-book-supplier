@@ -1,0 +1,81 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.details-left {
+    width: 25%;
+}
+
+.details-right {
+    width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+    .details-left,
+    .details-right {
+        width: 100%;
+    }
+
+    .details-left {
+        max-width: 360px;
+    }
+}
+
+.max-w-1\/2 {
+    max-width: 50%;
+}
+
+.rounded-18 {
+    border-radius: 18px;
+}
+
+.rounded-t-18 {
+    border-radius: 18px 18px 0 0;
+}
+
+.rounded-36{
+    border-radius: 36px;
+}
+
+@media only screen and (max-width: 991px) {
+    .dropdown-menu {
+        background: var(--bs-primary);
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .dropdown-menu.show {
+        border: none;
+    }
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        background: var(--bs-primary);
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.contact-wrapper {
+    max-width: 768px;
+}
